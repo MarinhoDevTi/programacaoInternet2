@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 400px;
+    min-width: 300px;
+    border: 2px solid #CCCCCC;
+    border-radius: 1em;
+    padding: 2em;
+    margin-bottom: 1em;
+}
+
+/* Outras estilizações aqui */
