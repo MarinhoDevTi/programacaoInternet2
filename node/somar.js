@@ -1,6 +1,14 @@
 // somar.js
-let resultado = somar(10, 20);
-console.log( resultado);
+let args = process.argv;
+//console.log(args);
+
+let num1 = args[2] ?? 0;
+let num2 = args[3] ?? 0;
+
+
+
+let resultado = somar(parseInt(num1), parseInt(num2));
+console.log("Resultado:", resultado );
 
 function somar(num1, num2) {
     return num1 + num2;
